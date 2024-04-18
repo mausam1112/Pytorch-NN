@@ -1,0 +1,6 @@
+*.csv
+*.pyc
+*.tsv
+*.tz
+*.zip
+data/
