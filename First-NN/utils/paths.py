@@ -6,7 +6,7 @@ from utils.configs import INPUT_FILE_TYPES
 from utils.logs import log
 
 
-def get_filetype(path: str) -> str:
+def get_filetype(path: str|Path) -> str:
     """
     Checks and returns the file extension for correct file type.
 
